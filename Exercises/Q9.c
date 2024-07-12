@@ -1,7 +1,6 @@
 // Write a C Program for Area And Perimeter Of Rectangle 
 
 #include<stdio.h>
-
 int main()
 {
     int length, breadth, area, perimeter;
