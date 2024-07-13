@@ -25,9 +25,9 @@ int main()
     }
     
     printf("\nReverse Triangle Pattern\n");
-    for(i = 1; i <= 5; i++)
+    for(i = 5; i >= 1; i--)
     {
-        for(j = 5; j >= i; j--)
+        for(j = 1; j <= i; j++)
         {
             printf("* ");
         }
@@ -46,14 +46,15 @@ int main()
 
     
     printf("\nReverse Numbers Pattern\n");
-    for(i = 1; i <= 5; i++)
+    for(i = 5; i >= 1; i--)
     {
-        for(j = 5; j >= i; j--)
+        for(j = 1; j <= i; j++)
         {
             printf("%d ",i);
         }
         printf("\n");
     }
+
 
     
     printf("\nAlphabets Triangle Pattern\n");
