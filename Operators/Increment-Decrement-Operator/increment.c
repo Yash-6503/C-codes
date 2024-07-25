@@ -1,4 +1,4 @@
-//Increment Operator example
+//Increment(++) Operator example
 
 #include<stdio.h>
 int main()
