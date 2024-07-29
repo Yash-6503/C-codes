@@ -1,0 +1,11 @@
+Address Operator: 
+The address operator in C is the ampersand (&) symbol.
+It is used to obtain the memory address of a variable. 
+When placed before a variable name, it returns the address 
+of that variable. This is particularly useful when working with pointers, 
+as pointers store memory addresses.
+
+
+-Types
+1.& - Address of variable
+2.* - pointer - Stores the Address of another variable
