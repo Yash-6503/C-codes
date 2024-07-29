@@ -1,0 +1,15 @@
+sizeof():
+It returns the no of bytes taken by a variable / value / data type.
+
+The sizeof operator in C is a compile-time unary operator that is 
+used to determine the size, in bytes, of a variable or data type. 
+It is particularly useful for determining the size of arrays, 
+structures, or any data type during programming.
+
+-Syntax
+sizeof(type);
+sizeof expression;
+
+ex.
+int a=2;
+sizeof(a);
