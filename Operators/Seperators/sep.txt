@@ -1,0 +1,25 @@
+Seperators : 
+In C language, separators (also known as delimiters) are symbols that 
+are used to separate different elements of the program. 
+They help in defining the structure and flow of the code. 
+Here are the main separators used in C language:
+
+1.Whitespace: 
+Includes spaces, tabs, and newline characters. 
+Whitespace is used to separate tokens but is otherwise ignored 
+by the compiler.
+
+2.Semicolon (;): Used to terminate statements.
+
+3.Comma (,): Used to separate items in a list, such as function arguments and variable declarations.
+
+4.Braces ({ and }): Used to define the beginning and end of a block of code, such as the body of a function, loop, or conditional statement.
+
+5.Parentheses (( and )): Used to group expressions and parameters in function definitions and calls.
+
+6.Brackets ([ and ]): Used to define array subscripts.
+
+7.Colon (:): Used in the ternary conditional operator and labels for case in switch statements.
+
+
+ex. () and , Seperators
