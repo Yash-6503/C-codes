@@ -1,10 +1,11 @@
-//Bitwise | - [Or] Operator example
+//Bitwise | - [Or] Operator Example
 
 #include<stdio.h>
 int main()
 {
     printf("|-[or] Operator example\n");
-    printf("a = %d\n", 25 | 15);                //31
+    printf("a = %d", 25 | 15);                //31
+    printf("\n");
     return 0;
 }
 
