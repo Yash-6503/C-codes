@@ -1,0 +1,16 @@
+Operator precedence / Operator priority(ASSOCIATION OF OPERATORS)
+
+1. ()
+2. +, - , ! (sign operators, unary operators)
+3. ++, -- (pre increment & decrement)
+4. *, / , %
+5. +, - (Binary)
+6. = =
+7. &&
+8. ||
+9. ? : (ternary operator)
+10. =
+11. ++, -- ( Post increment & decrement )
+12. , (comma)
+
+It follows BODMAS priority operations.
