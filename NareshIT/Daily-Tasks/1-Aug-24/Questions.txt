@@ -1,0 +1,13 @@
+All Questions of 1-Aug-2024
+
+1. Write a C program to swap two numbers without using a third variable.
+
+2. Write a C program to swap two numbers using third variable.
+
+3. Write a C program to make sum of two digit number.
+
+4. Write a C program to perform sum of two numbers without using '+' operator.
+
+5. Write a C Program to calculate the selling price of a TV which 
+cost price is 3000rs and profit is 15% print the selling price.
+
