@@ -1,0 +1,406 @@
+Question: 1
+What is the value of a after executing the following code?
+
+int a = 5;
+a += 3 * 2;
+
+
+Correct Answer
+A.11    //This is Correct
+
+
+B.16
+
+
+C.30
+
+
+D.15
+
+
+E.14
+
+ No Answerwas selected
+Question: 2
+What will be the output of the below program?
+
+int main() {
+int a = 5;
+int b = 10;
+int c = 15;
+int result = a++ * ++b - --c;
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A .result = 36
+
+Correct Answer
+B. result = 41      //correct answer
+
+
+C. result = 35
+
+
+D. result = 90
+
+
+E .result = 91
+
+ No Answerwas selected
+Question: 3
+What will be the output of the following code snippet?
+
+include
+int main() {
+int x = 3;
+int y = 2;
+int z = x++ * (x + y) - y- -;
+printf(“z = %d\n”, z);
+return 0;
+}
+
+
+
+A.z = 22
+
+
+B.z = 23
+
+Correct Answer
+C.z = 16        //correct answer
+
+
+D.z = 7
+
+
+E.z = 20
+
+ No Answerwas selected
+Question: 4
+What will be the output of the following code snippet?
+
+include
+int main() {
+int x = 10;
+int y = 5;
+int z = x - - - y;
+printf(“x = %d, y = %d, z = %d\n”, x, y, z);
+return 0;
+}
+
+
+Correct Answer
+A.x = 9, y = 5, z = 5       //Correction: x =  10, y =  4, z =  6
+
+
+B.x = 9, y = 4, z = 5
+
+
+C.x = 9, y = 5, z = 4
+
+
+D.Compiler Error
+
+
+E.None
+
+ No Answerwas selected
+Question: 5
+What will be the output of the following code snippet?
+
+include
+int main() {
+int x = 3;
+int y = 2;
+int z = x++ * (x + y) - - -y;
+printf(“z = %d\n”, z);
+return 0;
+}
+
+
+
+A.z = 22
+
+
+B.z = 23
+
+
+C.z = 16
+
+Correct Answer
+D.z = 17
+
+
+E.z = 20
+
+ No Answerwas selected
+Question: 6
+What will be the output of the following code snippet?
+
+include
+int main() {
+int x = 15;
+int y = 2;
+int z = x / y + x % y;
+printf(“z = %d\n”, z);
+return 0;
+}
+
+
+
+A.z = 7
+
+Correct Answer
+B.z = 8         //correct answer
+
+
+C.z = 9
+
+
+D.z = 14
+
+
+E.z = 15
+
+ No Answerwas selected
+Question: 7
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 10;
+int b = 20;
+int result = (a > b) && (b < a++) || (a++ < b);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A.result = 0
+
+Correct Answer
+B.result = 1            //correct answer
+
+
+C.result = 2
+
+
+D.result = 3
+
+
+E.result = 4
+
+ No Answerwas selected
+Question: 8
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 1, b = 2, c = 3;
+int result = a++ + ++b + c- - - - -c + ++a + b- - + a- - - b;
+printf(“result = %d\n”, result);return 0;
+}
+
+
+
+A.result = 8
+
+
+B.result = 11
+
+
+C.result = 12
+
+Correct Answer
+D.result = 13
+
+
+E.result = 14
+
+ No Answerwas selected
+Question: 9
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 10;
+int b = 15;
+int c = a+++b- -;
+printf(“a = %d, b = %d, c = %d\n”, a, b, c);
+return 0;
+}
+
+
+Correct Answer
+A.a = 11, b = 14, c = 25        //correct answer
+
+
+B.a = 12, b = 13, c = 25
+
+
+C.a = 11, b = 13, c = 25
+
+
+D.a = 12, b = 14, c = 23
+
+
+E.a = 12, b = 14, c = 24
+
+ No Answerwas selected
+Question: 10
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 10, b = 20, c = 10;
+int result = (a > b) || (b == c) && (c != a);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+Correct Answer
+A.result = 0            //correct answer
+
+
+B.result = 1
+
+
+C.result = 2
+
+
+D.result = 3
+
+
+E.result = 4
+
+ No Answerwas selected
+Question: 11
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 5, b = 10, c = 15;
+int result = !(a <= b) && !(b != c) && !(c >= a);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+Correct Answer
+A.result = 0        //correct answer
+
+
+B.result = 1
+
+
+C.result = 2
+
+
+D.result = 3
+
+
+E.result = 4
+
+ No Answerwas selected
+Question: 12
+What will be the output of the following code snippet?
+
+include
+int main() {
+int a = 15, b = 4, c = 3;
+int result = (a + b) % c * b;
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A.result = 8
+
+
+B.result = 7
+
+Correct Answer
+C.result = 4        //correct answer
+
+
+D.result = 5
+
+
+E.result = 6
+
+ No Answerwas selected
+Question: 13
+What will be the output of the following C code?
+
+include
+int main() {
+int a = 3;
+int b = 4;
+int result = (a += b) * (b -= 2);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A.result = 10
+
+
+B.result = 12
+
+
+C.result = 15
+
+Correct Answer
+D.result = 14       //correct answer
+
+
+E.result = 16
+
+ No Answerwas selected
+Question: 14
+What will be the data type of the variable result if the following line of code is used?
+
+float result = 3 / 2;
+
+
+
+A.1.0
+
+Correct Answer
+B.1
+
+
+C.1.5
+
+
+D.compilation error
+
+
+E.2
+
+ No Answerwas selected
+Question: 15
+Which printf statement will correctly print the value of the variable count as a character?
+
+
+Correct Answer
+A.printf(“Count: %c”, count);
+
+
+B.printf(“Count: %d”, count);
+
+
+C.printf(“Count: %f”, count);
+
+
+D.printf(“Count: %s”, count);
+
+
+E.None
