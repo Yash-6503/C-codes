@@ -1,0 +1,16 @@
+1. Write a C program to add each digit of a given two digit number.The given number is 67.
+
+Explanation 67 = 6 + 7 = 13
+
+Expected output is : 13
+
+=======================================================================================
+
+2. Write a C program to find the previous multiple of 100 of a given three digit number . 
+The given number is 234 and the output is 200.
+
+========================================================================================
+
+3. Write a C program to reverse a two digit number without using any loop. 
+The given number is 13 and the output is 31.
+
