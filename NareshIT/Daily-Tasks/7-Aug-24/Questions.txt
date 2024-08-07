@@ -1,0 +1,56 @@
+Que 1 :  Without using control statments Write a C program to determine the next or previous multiple of 10 for a given two-digit number. 
+--------  The program should follow these rules:
+          If the last digit of the given number is greater than or equal to 5, the program should print the next multiple of 10.
+          If the last digit of the given number is less than 5, the program should print the previous multiple of 10..
+
+
+Sample input : int a = 34 , b = 25 , c = 86;
+
+Sample Output : 30 , 30 , 90
+                               
+========================================================================================================  
+
+Que 2 : Write a Cprogram to print sum of N natural numbers without using loops.
+--------
+
+Sample input : int n = 10
+Sample output : 55
+    
+========================================================================================================   
+
+Que 3 :  Write a 'C' program to check and print that given number is even or odd without using ternary operator and control statments.
+--------
+
+Sample input : int a = 10
+Sample Output : EVEN
+
+Sample input : int a = 125
+Sample Output : ODD 
+
+========================================================================================================   
+
+Que 4 :  Write a 'C' program to check and print the Maximum number among two numbers without using ternary operator and control statments.
+--------
+
+Sample input : int a = 10 , b = 20
+Sample Output : MAX = 20
+
+                               
+========================================================================================================  
+
+Que 5 : Write a 'C' program to take the marks of a student in 5 subjects as input and determine how many subjects have marks greater than or equal to 35 and how many have marks less than 35. 
+-------  The program should not use any control statements (if, else, switch, etc.) or the ternary operator. 
+
+Sample input : int sub1 = 38, sub2 = 34, sub3 = 35, sub4 = 78, sub5 = 20
+Sample Output : Pass in 3 subject and fail in 2 subject.  
+       
+========================================================================================================       
+
+Que 6 : Write a 'C' program to take the number of days and convert into (days:months:years)
+--------
+
+Sample input : int days = 500
+
+Sample Output :  1 year 4 month and 15 days. 
+       
+========================================================================================================       
