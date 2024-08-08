@@ -1,7 +1,6 @@
 /*
-Finding simple interest:
-ptr/100;
-1000rs 12 months rate=2.5
+Write a C program to take principle amount, time, rateof interest 
+and Find simple interest on principle amount
 */
 
 #include<stdio.h>
