@@ -1,6 +1,6 @@
 /*
 Read a customer id, name, quantity purchased and rate of
-item. Find amount, 35% discount and total.
+item, discount. Find amount, discount and total.
 */
 
 #include<stdio.h>
