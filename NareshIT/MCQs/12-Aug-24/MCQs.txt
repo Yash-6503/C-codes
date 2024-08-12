@@ -1,0 +1,213 @@
+===================================MCQ===================================
+1)What is the size of an 'int' data type in C on a 32-bit system?
+
+a)1 byte
+b)2 bytes
+c)4 bytes
+d)8 bytes
+
+ans:-c
+------------------------------------------------------------------------------------------------
+2)What is the output of the following code?
+  #include <stdio.h>
+  int main() {
+    printf("%d", 5 + 10);
+    return 0;
+  }
+
+a)510
+b)5
+c)10
+d)15
+
+ans:-d
+------------------------------------------------------------------------------------------------
+3)What is the difference between = and == in C?
+
+a)= is used for comparison, == is used for assignment
+b)= is used for assignment, == is used for comparison
+c)= is used for addition, == is used for subtraction
+d)= is used for multiplication, == is used for division
+
+ans:-b
+------------------------------------------------------------------------------------------------
+4)What will be the output for the following C code?
+#include <stdio.h>
+int main()
+{
+    int y = 4;
+    int x = 9 % 2 * 4 / 2;
+    printf("Value of x is %d", x);
+}
+
+a) Value of x is 3
+b) Value of x is 2
+c) Value of x is 1
+d) Compile-time error
+
+ans:-b
+------------------------------------------------------------------------------------------------
+5)What is the purpose of the #include directive in C?
+
+a)To include a header file
+b)To define a function
+c)To declare a variable
+d)To initialize a pointer
+
+ans:-a
+------------------------------------------------------------------------------------------------
+6)What will be the output for the following C code?
+#include <stdio.h>
+  int main() {
+   int x = 4;
+    printf("%d", x++);
+    return 0;
+  }
+
+a)0
+b)5
+c)4
+d)Compile-time error
+
+ans:-c
+------------------------------------------------------------------------------------------------
+7)What will be the output for the following C code?
+#include <stdio.h>
+  int main() {
+   int x = 10;
+     x++;
+    printf("%d", x);
+    return 0;
+}
+a)11
+b)10
+c)12
+d)Compile-time error
+
+ans:-a
+------------------------------------------------------------------------------------------------
+8)What will be the output for the following C code?
+#include <stdio.h>
+int main()
+{
+    int x = 5, y = 2;
+    x /= x / y;
+    printf("%d\n", x);
+    return 0;
+}
+
+a)0
+b)5
+c)2
+d)1
+
+ans:-c
+------------------------------------------------------------------------------------------------
+9)What will be the output for the following C code?
+#include <stdio.h>
+  int main() {
+   int x = 4;
+    printf("%d", ++x);
+    return 0;
+  }
+
+a)0
+b)5
+c)4
+d)Compile-time error
+
+ans:-b
+------------------------------------------------------------------------------------------------
+10)Consider the following program fragment,and choose the correct one.
+int main()
+{
+  int a,b=3,c;
+  a=2*(b++);
+  c=2*(++b);
+  printf("a=%d, b=%d, c=%d",a,b,c);
+}
+
+a)a=8, b=5, c=8
+b)a=6, b=6, c=8
+c)a=8, b=5, c=10
+d)a=6, b=5, c=10
+
+ans:-d
+------------------------------------------------------------------------------------------------
+11)What will be the output for the following C code?
+#include <stdio.h>
+
+int main() {
+    int x = 5, y = 2, z;
+    z = x / y * x % y;
+    printf("%d\n", z);
+    return 0;
+}
+a)0
+b)1
+c)2
+d)Compile-time error
+
+ans:-a
+------------------------------------------------------------------------------------------------
+12)What is the output of the following code?
+#include <stdio.h>
+int main() {
+    int a = 5, b = 5, c = 5;
+    int x, y;
+    x = ++a * 2 - 1;
+    y = b++ * 2 - 1;
+    c *= 2 - 1;
+    printf("%d %d %d\n", x, y, c);
+    return 0;
+}
+a) 12 10 10
+b) 12 10 5
+c) 11 9 10
+d) 11 9 5
+ans:-d
+------------------------------------------------------------------------------------------------
+13)What is the output of the above program?
+#include <stdio.h>
+int main()
+{
+    int i = 3;
+    printf("%d", (++i)++);
+    return 0;
+}
+
+a)3
+b)4
+c)5
+d)Compile-time error
+
+ans:-d
+------------------------------------------------------------------------------------------------
+14)What is the output of following program?
+#include <stdio.h>
+int main()
+{
+   int a = 1;
+   int b = 1;
+   int c = a || --b;
+   int d = a-- && --b;
+   printf("a = %d, b = %d, c = %d, d = %d", a, b, c, d);
+   return 0;
+}
+
+a)a = 0, b = 1, c = 1, d = 0
+b)a = 0, b = 0, c = 1, d = 0
+c)a = 1, b = 1, c = 1, d = 1
+d)a = 0, b = 0, c = 0, d = 0
+
+ans:-b
+------------------------------------------------------------------------------------------------
+15)What is the value of a?
+int a = 3.5 + 4.5;
+a) a = 0
+b) a = 7
+c) a = 8
+d) a = 8.0
+
+ans:-c
+------------------------------------------------------------------------------------------------
