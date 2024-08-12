@@ -1,0 +1,90 @@
+15m.
+Question: Write a c program to find the largest number among the Three number without using Control flow Statements
+
+sample input: 12 45 32
+sample output: 45
+===============================================================================================================
+5m.
+Question: Write a c program to swap the two numbers using bitwise XOR operator
+Note:: Using bitwise XOR Operator Only
+
+sample input: a=5 b=7
+sample output: a=7 b=5
+==============================================================================================================================
+5m.
+Question: Write a c program to convert the small letter to Capital letter
+
+sample input: t
+sample Output: T
+============================================================================================================================
+5m.
+Question: Write a c program to find the sum of n natural numbers
+
+sample input: 10
+sample output: 55
+======================================================================================================================================
+10m.
+Question: Write a c program that if the numbers last digit is less than 5 then print the square of the number otherwise print the same number
+without using control flow statements. 
+
+sample input: 12
+sample output: 144
+
+sample input: 17
+sample output:17
+==============================================================================================================================================
+15m.
+Question: Write a c program that will find the medals of the based on some criteria that is total 5 levels are there for each level the player get one medal that 
+	 	 if the level total marks are 10 if player got points more that 6-10 he will get the gold in the level or if player got points 1-5 he will get silver medal.
+		Without using control flow statements.
+Note::the points you have to read from the user through scanf.
+sample input: 4 5 9 8 2
+sample output: player got 2 gold and 3 silver medals
+====================================================================================================================================================
+
+5m.
+Question: Write a c program that will find the sum of 2 character ascii values.
+sample input: a b
+sample output:195
+
+===========================================================================================================================================================
+15m.
+Question: Write a c program that will find the Kinetic Energy
+Note:: mass and velocity you have to read from the user through the scanf
+
+Note:: formula: KE=(1/2)*mass*Velocity^2;
+sample input: mass=5.5 Velocity=6.9
+sample output: KE = 130.9275
+====================================================================================================================================================
+
+5m.
+Question: Write a c program to find the volume of sphere
+
+Note:: radius you have to read from the user through the scanf
+
+sample input: radius=5;
+sample output: Volume=523.60
+===============================================================================================================================================================
+15m.
+Question: A Shop keeper buys a bat at 5000rs for gripping he invested 490rs for stickering he invested 270rs now he want to make 27% profit on total cost now your task is to find what is 	the total cost of that bat and you have to print how much he invested for what (gripping: 490rs, stickering 270rs) and what is the selling price and as per indias new rule GST is 	2.56% calculate the print 
+		sample output:
+		original price=5000rs
+		gripping =490rs
+		stickering=270rs
+		total Cost=5760.00(After adding the invested money)
+		selling price=7315.200rs
+		GST=187.27(calculate the GST from the Selling price)
+============================================================================================================================================================
+10m.
+Question: Write a c program to swap the first and last digit of the given 4digit number with out using loops or control flow statements
+Note:: read the n value from the user through the scanf
+sample input: n=7865
+sample output: 5867.
+======================================================================================================================================================================
+10m.
+
+Question: Write a c program that will find the nearest multiple of 10 of given 2 digit numbers Without using control flow statements
+Note:: read the Numbers from the user through the scanf
+sample input: 23 67 45
+sample output: 20 70 50
+
