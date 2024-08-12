@@ -13,7 +13,7 @@ sample output: 20 70 50
 void main()
 {
     int n;
-    printf("\nEnter a number: ");
+    printf("\nEnter 2 digit number: ");
     scanf("%d",&n);
     n%10 >= 5 && printf("\nNearest 10 multiple of %d is %d", n, (n/10+1)*10) || printf("\nNearest 10 multiple of %d is %d", n, n/10*10);
 }
