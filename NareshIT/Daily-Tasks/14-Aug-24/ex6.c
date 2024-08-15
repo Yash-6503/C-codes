@@ -27,8 +27,7 @@ void main()
     {
         printf("\nSquare of %d is %d", n, n*n);
     }
-    else
-    {
+    else{
         printf("\nThe number is %d", n);
     }
 }
