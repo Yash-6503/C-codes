@@ -72,7 +72,7 @@ void main()
     printf("\nEnter Salary: ");
     scanf("%d", &salary);
 
-    if(design == 'd' || design == 'M')
+    if(design == 'd' || design == 'D')
     {   
         TotalSalary = salary + home;
     }
