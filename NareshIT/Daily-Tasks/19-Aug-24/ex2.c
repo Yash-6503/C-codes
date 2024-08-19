@@ -39,6 +39,7 @@ void main()
     float height, ticket, Final, extra;
     char vip;
     
+    age:
     printf("\nEnter Age: ");
     scanf("%d", &age);
     printf("\nEnter Height in centimeters: ");
@@ -46,7 +47,13 @@ void main()
     printf("\nEnter (Y / y) if you have Vip pass othrewise enter (N / n): ");
     scanf(" %c", &vip);
 
-    if(age <= 3)
+    
+    if(age <= 0)
+    {
+        printf("\nInvalid age\n");
+        goto age;
+    }
+    else if(age <= 3 && age >= 1)
     {
         printf("\nFree Entry");
         ticket = 0;
@@ -71,10 +78,6 @@ void main()
         {
             ticket = 100;
         }
-    }
-    else if(age == 0 && age >= 0)
-    {
-        printf("\nEnter Valid age");
     }
     else
     {
@@ -203,4 +206,36 @@ Vip Pass Status : n
 Base Ticket Price : 50.00
 Extra Charges / Discount applied on height: 0.00
 Final Ticket Price with 10% Discount: 50.00
+*/
+
+/*
+Enter Age: 0
+
+Enter Height in centimeters: 1
+
+Enter (Y / y) if you have Vip pass othrewise enter (N / n): n
+
+Enter Valid age
+
+Enter Age: -1
+
+Enter Height in centimeters: 10
+
+Enter (Y / y) if you have Vip pass othrewise enter (N / n): n
+
+Enter Valid age
+
+Enter Age: 1
+
+Enter Height in centimeters: 11
+
+Enter (Y / y) if you have Vip pass othrewise enter (N / n): n
+
+Free Entry
+Customers Age : 1
+Customers Height : 11.00
+Vip Pass Status : n
+Base Ticket Price : 0.00
+Extra Charges / Discount applied on height: 0.00
+Final Ticket Price with 10% Discount: -0.00
 */
