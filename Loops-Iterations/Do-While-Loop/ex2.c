@@ -7,12 +7,12 @@ void main()
     int n, sum=0, r;
     printf("\nEnter a number: ");
     scanf("%d", &n);
-    while(n!=0)
+    do
     {
         r = n%10;
         sum += r;
         n=n/10;
-    }
+    }while(n!=0);
     printf("\nSum of digits is %d", sum);
 }
 
