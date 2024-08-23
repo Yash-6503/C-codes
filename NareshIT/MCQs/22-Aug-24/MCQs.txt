@@ -1,0 +1,926 @@
+Question: 1
+What is the output?
+
+void main()
+{
+ int num=10;
+ if(num)
+  printf(“If Executed”);
+ else
+  printf(“Else Executed”);
+}
+
+
+(a) If Executed         //correct answer
+
+(b) Else Executed
+
+(c) Error
+
+(d) Blank
+
+=================================================================
+
+Question: 2
+What is the output?
+
+void main()
+{
+if(-100)
+ printf(“Negative number”);
+else
+ printf(“Positive number”);
+}
+
+
+
+(a) Positive number
+
+(b) Negative number     //correct answer
+
+
+(c) Error
+
+
+(d) Random Behavior
+
+=================================================================
+
+Question: 3
+What is the output?
+void main()
+{
+ if(1 || 0)
+  printf(“C Programming”);
+ else
+  printf(“learn C”);
+}
+
+
+
+(a) learn C
+
+
+(b) Compile Error
+
+
+(c) C Programming       //correct answer
+
+
+(d) Error
+
+=================================================================
+
+Question: 4
+What is the output?
+void main()
+{
+ int x= 5;
+ if(x < 1);
+  printf(“Hello”);
+  printf(“Hi”);
+}
+
+
+
+(a) Hi
+
+
+(b) HelloHi         //correct answer
+
+
+(c) Error
+
+
+(d) None of these
+
+=================================================================
+
+Question: 5
+What is the output?
+void main()
+{
+ int x = 5;
+ if (x < 1)
+  printf(“hello”);
+ if (x == 5)
+  printf(“hi”);
+ else
+  printf(“no”);
+}
+
+
+
+(a) hi          //correct answer
+
+
+(b) hello
+
+
+(c) no
+
+
+(d) error
+
+=================================================================
+
+Question: 6
+What is the output?
+void main()
+{
+ int x = 0;
+ if (x == 0)
+  printf(“hi”);
+ else
+  printf(“how are u”);
+  printf(“hello”);
+}
+
+
+
+(a) hi
+
+
+(b) how are you
+
+
+(c) hello
+
+
+(d) hihello         //correct answer
+
+=================================================================
+
+Question: 7
+What is the output?
+void main()
+{
+int x = 0;
+if (x++)
+printf(“true\n”);
+else if (x == 1)
+printf(“false\n”);
+}
+
+
+
+(a) true
+
+
+(b) false           //correct answer
+
+
+(c) blank
+
+
+(d) Error
+
+=================================================================
+
+Question: 8
+What is the output?
+int main()
+{
+int x = 0;
+if (x == 1)
+    if (x >= 0)
+        printf(“true\n”);
+    else
+        printf(“false\n”);
+}
+
+
+
+(a) true                //wrong answer
+
+
+(b) false
+
+
+(c) blank           //correct answer
+
+
+(d) Error
+
+=================================================================
+
+Question: 9
+What is alternate name of conditional operator?
+
+
+
+(a) Comparison operator
+
+
+(b) If-else Operator            //wrong answer
+
+
+(c) Binary operator
+
+
+(d) Ternary operator        //correct answer
+
+
+=================================================================
+
+Question: 10
+What will be the output of the following C code ?
+void main() {
+int i = 0,k;
+lable : printf(“%d”,i);
+if(i==0)
+goto lable;
+}
+
+
+
+A. 0
+
+B. infinite 0           //correct answer
+
+
+C. Nothing
+
+
+D. Error
+
+=================================================================
+
+Question: 11
+What will be the output of the following C code ?
+
+int main() {
+int x = 0;
+if(x==1)
+    if(x==0)
+        printf(“inside if\n”);
+    else
+        printf(“inside else if\n”);
+else
+    printf(“inside else\n”);
+}
+
+
+
+A. inside if
+
+
+B. inside else if
+
+
+C. inside else      //correct answer
+
+
+D. compile time error       //wrong answer
+
+=================================================================
+
+Question: 12
+What will be the output of the following C code ?
+
+int main() {
+int x = 0;
+if(x==0)
+printf(“true “);
+else if(x=10)
+printf(“false “);
+printf(“%d\n”,x);
+}
+
+
+
+A. false, 0
+
+
+B. true, 0      //correct answer
+
+
+C. true, 10
+
+
+D. compile time error
+
+=================================================================
+
+Question: 13
+What will be the output of the following C code ?
+
+int main() {
+int x = 0;
+if(x==1)
+    if(x>=0)
+        printf(“true\n”);
+    else
+        printf(“false\n”);
+}
+
+
+
+A. true             
+
+
+B. false
+
+
+C. Depends on the compiler
+
+
+D. No print statement       //correct answer
+
+=================================================================
+Question: 14
+What will be the output of the following C code ?
+
+int main() {
+int x = 1;
+
+  if(x>0)
+    printf("inside if\n");
+  else if(x>0)
+    printf("inside elseif\n");
+}
+
+
+A. inside if            //correct answer
+
+
+B. inside elseif
+
+
+C. inside if
+inside elseif
+
+
+D. compile time error
+
+=================================================================
+
+Question: 15
+What will be the output of the following C code ?
+
+int main() {
+printf(“%d “,1);        //1
+goto l1 ;
+printf(“%d “,2);
+l1: goto l2;
+printf(“%d “,3);
+l2: printf(“%d “, 4);       //4
+}
+
+
+
+A. 1 4                  //correct answer
+
+
+B. Compilation Error
+
+
+C. 1 2 4
+
+
+D. 1 3 4
+
+=================================================================
+
+Question: 16
+What will be the output of the following C code ?
+
+void main() {
+int x = 5;
+if(x<1) ;
+printf(“Hello”);
+}
+
+
+
+A. Nothing
+
+
+B: Run time Error
+
+
+C. Hello            //correct answer
+
+
+D. Varies
+
+=================================================================
+
+Question: 17
+What will be the output of the following C code ?
+
+int main() {
+printf(“%d “,1);
+l1:l2:
+printf(“%d “,2);
+printf(“%d\n”,3);
+}
+
+
+
+A. Compilation error        //wrong answer
+
+
+B. 1 2 3        //correct answer
+
+
+C. 1 2
+
+
+D. 1 3
+
+=================================================================
+
+Question: 18
+The C statement if(a==1 || b==2){} can be re - written as ……
+
+
+
+A. if(a==1)
+if(b==2){}
+
+
+B. if(a==1){}
+if(b==2){}
+
+
+C. if(a==1){}           //correct answer
+else if(b==2){}
+
+
+D. None of the above
+
+=================================================================
+
+Question: 19
+What will be the output of the following C code ?
+
+int main() {
+int a = 1;
+if(a){
+printf(“All is well “);
+}
+printf(“I am well\n”);
+else {
+printf(“I am not a River\n”);
+}
+}
+
+
+
+A. Output will be All is Will I am well
+
+
+B. Output will be I am Well I am not a River
+
+
+C. Output will be I am Well
+
+
+D. Compile time errors during compilation       //correct answer
+
+=================================================================
+Question: 20
+Find the output of the following program.
+
+include
+void main()
+{
+int y=10;
+if(y++>9 && y++!=10 && y++>11)
+printf(“%d”, y);
+else
+printf(“%d”, y);
+}
+
+
+
+a.11
+
+
+b.12        //wrong answer
+
+
+c.13        //correct answer
+
+
+d.14
+
+=================================================================
+Question: 21
+Determine Ouput :
+
+void main() {
+int i = 0,j = 0;
+if(i && j++) {
+printf(“%d..%d”,i++,j);}
+printf(“%d..%d”,i,j);
+}
+
+
+
+a.0..1      //wrong answer
+
+
+b.1..0
+
+
+c.0..0      //correct answer
+
+
+d.1..1
+
+=================================================================
+Question: 22
+Determine Output:
+void main()
+{
+int i=-1, j=-1, k=0, l=2, m;
+m = i++ && j++ && k++ || l++;
+printf(“%d %d %d %d %d”, i, j, k, l, m);
+}
+
+
+
+a.0 0 1 2 0
+
+
+b.0 0 1 3 0
+
+
+c.0 0 1 3 1     //correct answer
+
+
+d.0 0 0 2 1     //wrong answer
+
+=================================================================
+Question: 23
+What will be the output of the program?
+
+include
+int main()
+{
+int X=40;
+{
+int X=20;
+printf(“%d “, X);
+}
+printf(“%d\n”, X);
+return 0;
+}
+
+
+
+a.40 40
+
+
+b.20 40             //correct answer
+
+
+c.20
+
+
+d.Error
+
+=================================================================
+Question: 24
+What will be the output of the program?
+
+include
+int main()
+{
+int a = 500, b = 100, c;
+if(!a >= 400)
+b = 300;
+c = 200;
+printf(“b = %d c = %d\n”, b, c);
+return 0;
+}
+
+
+
+a. b = 300 c = 200
+
+
+b. b = 100 c = garbage
+
+
+c. b = 300 c = garbage
+
+
+d. b = 100 c = 200      //correct answer
+
+=================================================================
+Question: 25
+What will be the output of the program?
+
+include
+int main()
+{
+int x = 3;
+float y = 3.0;
+if(x == y)
+printf(“x and y are equal”);
+else
+printf(“x and y are not equal”);
+return 0;
+}
+
+
+a. x and y are equal    //correct answer
+
+
+b. x and y are not equal
+
+
+c. Unpredictable        
+
+
+d. No output        //wrong answer
+
+=================================================================
+Question: 26
+What will be the output of the program?
+
+include
+int main()
+{
+float a = 0.7;
+if(0.7 > a)
+printf(“Hi\n”);
+else
+printf(“Hello\n”);
+return 0;
+}
+
+
+
+a. Hi       //correct answer
+
+
+b. Hello            //wrong answer
+
+
+c. Hi Hello
+
+
+d. None of above
+
+=================================================================
+Question: 27
+What will be the output of the program?
+
+include
+int main()
+{
+int k, num = 30;
+k = (num < 10) ? 100 : 200;
+printf(“%d\n”, num);
+return 0;
+}
+
+
+
+a. 200
+
+b. 30           //correct answer
+
+
+c. 100
+
+
+d. 500
+
+=================================================================
+Question: 28
+What will be the output of the program?
+
+include
+int main()
+{
+int a = 300, b, c;
+if(a >= 400)
+b = 300;
+c = 200;
+printf(“%d, %d, %d\n”, a, b, c);
+return 0;
+}
+
+
+
+a. 300, 300, 200
+
+
+b. Garbage, 300, 200
+
+
+c. 300, Garbage, 200        //correct answer
+
+
+d. 300, 300, Garbage
+
+=================================================================
+Question: 29
+What will be the output of the program?
+
+include
+int main()
+{
+int x, y, z;
+x=y=z=1;
+z = ++x || ++y && ++z;
+printf(“x=%d, y=%d, z=%d\n”, x, y, z);
+return 0;
+}
+
+
+
+a. x=2, y=1, z=1        //correct answer
+
+
+b. x=2, y=2, z=1        //wrong answer
+
+
+c. x=2, y=2, z=2
+
+
+d. x=1, y=2, z=1
+
+
+=================================================================
+Question: 30
+Which of the following statements are correct about the below program?
+
+include
+int main()
+{
+int i = 10, j = 20;
+if(i = 5) && if(j = 10)
+printf(“Have a nice day”);
+return 0;
+}
+
+
+
+a. Output: Have a nice day
+
+
+b. No output        
+
+
+c. Error: Expression syntax
+
+
+d. Error: Undeclared identifier if      //correct answer
+
+================================================================
+Q.31
+What is the output of C Program with Switch Statement.?
+int main()
+{
+
+int a=5;
+
+switch(a)
+{
+    case 0: printf("0 ");
+    case 3: printf("3 ");
+    case 5: printf("5 ");       //correct answer
+    default: printf("RABBIT ");
+}
+
+a=10;
+switch(a)
+{
+    case 0: printf("0 ");
+    case 3: printf("3 ");
+    case 5: printf("5 ");
+    default: printf("RABBIT "); break;      //correct answer
+}
+
+return 0;
+}
+
+
+
+5 RABBIT  RABBIT      //correct answer
+
+
+0 3 5 RABBIT 0 3 5 RABBIT
+
+
+0 3 5 RABBIT RABBIT
+
+
+3 5 RABBIT RABBIT
+
+====================================================================
+Q.32
+
+What is the output of C Program with switch statement.?
+int main()
+{
+int a=3;
+
+switch(a)
+{
+    case 2: printf("ZERO "); break;
+
+    case default: printf("RABBIT ");
+}
+}
+
+
+
+RABBIT
+
+
+ZERO RABBIT
+
+
+No output
+
+
+Compiler error      //correct answer
+==================================================================
+Q33
+What is the output of C Program with switch statement or block.?
+int main()
+{
+int a=3;
+
+switch(a)
+{
+
+}
+
+printf("MySwitch");
+}
+
+
+
+MySwitch        //correct answer
+
+
+No Output
+
+
+Compiler Error
+
+
+None of the above
+
+===============================================================
+Q34
+What is the output of C Program with switch statement or block.?
+int main()
+{
+int a;
+
+switch(a)
+{
+    printf("APACHE ");
+}
+
+printf("HEROHONDA");
+}
+
+
+
+APACHE HEROHONDA
+
+
+HEROHONDA   //correct answer
+
+
+No Output
+
+
+Compiler error          //wrong answer
+====================================================================
+Q35
+What is the output of C program with switch statement or block.?
+int main()
+{
+int a;
+
+switch(a);
+{
+    printf("DEER ");
+}
+
+printf("LION");
+}
+
+
+
+LION        
+
+
+DEER LION       //correct answer
+
+
+Compiler error
+
+
+None of the above
