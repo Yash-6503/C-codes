@@ -1,0 +1,32 @@
+
+1.
+Write a C program to find the alternate digit sum is same or not.
+===============================================================
+2.
+Write a C program to find the given number is a step number or not.
+If the adjacent digit difference is 1 then it is a step number.
+================================================================
+3.
+Write a C program that takes a number as input from the user
+and determine whether the number is a neon number or not.
+Develop it by using while loop.
+
+Sample Input
+input 9
+
+Sample Output
+9 is neon number
+==================================================================
+4.
+Write a C program that takes a number as input from the user
+and determines whether it is a spy number of not, DEVELOP 
+this by using while loop.
+
+A Spy number is a number where the sum of its digits is equal
+to its product of its digits.
+
+Sample Input
+1124
+
+Sample Output
+1124 is spy number
