@@ -1,4 +1,4 @@
-// number Square pattern program
+// Number Sequence Square pattern program
 
 #include<stdio.h>
 void main()
