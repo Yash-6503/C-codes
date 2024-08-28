@@ -1,0 +1,39 @@
+1.
+Write a C program that calculates the sum of a factorial series up to a given number of terms.
+Sample Input
+Enter the number of terms in the factorial series: 5
+Sample Output
+The sum of the factorial series up to 5 terms is: 153
+
+===================================================================
+2.
+Check Prime Number
+Write a C program to check the given number is a prime number or not.
+Sample Input
+Enter a number : 13
+Sample Output
+13 is a Prime Number.
+
+=================================================================
+3.
+Write a C program that calculates the Highest Common Factor (HCF) of two numbers using for loops
+Sample Input
+Enter two numbers: 8 12
+Sample Output
+The HCF of 8 and 12 is 4
+
+==================================================================
+4.
+Write a C program to add all the digits present in a given number until it became a single digit. Develop it by using while loop.
+Sample Input
+Input as : 5678
+Sample Output
+Ouput as : 8
+
+===========================================================================
+5.
+Write a C program to check the given number is perfect number or not.
+Sample Input
+Enter a number :28
+Sample Output
+28 is a Perfect Number
