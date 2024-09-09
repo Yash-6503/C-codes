@@ -1,0 +1,100 @@
+
+Que 1 : Write a program in C to count the total number of duplicate elements in an array.
+--------
+Sample input :
+element - 0 : 5
+element - 1 : 2
+element - 2 : 2
+element - 3 : 3
+element - 4 : 5
+
+
+Sample output :
+Total number of duplicate elements found in the array is : 2
+
+====================================================================
+
+Que 2 : Write a program in C to print all unique elements in an array.
+-------
+Sample input:
+------------------------------------------
+Input the number of elements to be stored in the array: 4
+Input 4 elements in the array :
+element - 0 : 3
+element - 1 : 2
+element - 2 : 2
+element - 3 : 5
+
+Sample output :
+The unique elements found in the array are:3 5
+
+===========================================================================
+
+Que 3 : Write a program in C to merge two arrays of the same size sorted in descending order.
+-------
+Sample input :
+Input the number of elements to be stored in the first array :3
+Input 3 elements in the array :
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+
+Input the number of elements to be stored in the second array :3
+Input 3 elements in the array :
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+
+Sample output :
+The merged array in descending order is :3 3 2 2 1 1
+
+===========================================================================
+
+Que 4 : Write a program in C to count the frequency of each element of an array.
+-------
+Sample input :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 25
+element - 1 : 12
+element - 2 : 43
+element - 3 : 43
+
+Sample output :
+The frequency of all elements of an array :
+25 occurs 1 times
+12 occurs 1 times
+43 occurs 2 times
+
+==============================================================================
+Que 5 : Write a program in C to find the maximum and minimum elements in an array.
+-------	
+Sample input :
+Input the number of elements to be stored in the array :3
+Input 3 elements in the array :
+element - 0 : 45
+element - 1 : 25
+element - 2 : 21
+
+Sample output :
+Maximum element is : 45
+Minimum element is : 21
+
+=================================================================================
+
+Que  6 : Write a program in C to separate odd and even integers into separate arrays.
+--------
+Sample input :
+Input the number of elements to be stored in the array :5
+Input 5 elements in the array :
+element - 0 : 25
+element - 1 : 47
+element - 2 : 42
+element - 3 : 56
+element - 4 : 32
+
+Sample output :
+The Even array is : [42,56,32]
+The Odd array is : [25,47]
+
+============================================================================
