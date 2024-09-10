@@ -1,0 +1,60 @@
+Que 1 : Write a program in C to insert values in the array (unsorted list).
+--------
+Sample input :
+Input the size of array : 4
+Input 4 elements in the array in ascending order:
+element - 0 : 1
+element - 1 : 8
+element - 2 : 7
+element - 3 : 10
+Input the value to be inserted : 5
+Input the Position, where the value to be inserted :2
+
+Sample output :
+The current list of the array :1 8 7 10
+After Insert the element the new list is :1 5 8 7 10
+=============================================================================
+
+Que 2 : Write a program in C to delete an element at a desired position from an array.
+-------
+Sample input :
+Input the size of array : 5
+Input 5 elements in the array in ascending order:
+element - 0 : 1
+element - 1 : 2
+element - 2 : 3
+element - 3 : 4
+element - 4 : 5
+Input the position where to delete: 3
+
+Sample output :
+The new list is : 1 2 4 5
+============================================================================
+Que 3 :Write a program in C to find a pair with given sum in the array.
+-------
+Sample input:
+The given array : 6 8 4 -5 7 9
+The given sum : 15
+
+Sample output :
+Pair of elements can make the given sum by the value of index 0 and 5
+The sum pair 15 is: (6,9) (8,7)
+
+===================================================================
+Que 4 : Write a program in C to rotate an array by N positions.
+--------
+Sample input:
+The given array is : 0 3 6 9 12 14 18 20 22 25 27
+Enter the position :4
+
+Sample output :
+After rotating from 4th position the array is:12 14 18 20 22 25 27 0 3 6 9
+
+===================================================================================
+Que 5 : Write a program in C to find the number occurring odd number of times in an array.
+--------
+Sample input :
+The given array is : 8 3 8 5 4 3 4 3 5 1
+
+Sample output :
+The element odd number of times is : 3 1
