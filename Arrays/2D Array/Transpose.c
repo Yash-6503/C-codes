@@ -41,3 +41,16 @@ Transpose Matrix is:
   2  5  8
   3  6  9
 */
+
+/*
+Enter number of rows & columns: 2 3
+
+Enter 6 elements: 
+1 2 3
+4 5 6
+
+Transpose Matrix is: 
+  1  4
+  2  5
+  3  6
+*/
