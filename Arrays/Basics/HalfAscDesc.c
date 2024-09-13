@@ -7,38 +7,19 @@ order:
 void main()
 {
     int a[100], i, j, n, temp=0;
-    printf("\nEnter array size: ");
-    scanf("%d", &n);
+    printf("\nEnter array size: "); scanf("%d", &n);
     printf("\nEnter %d elements: ", n);
-    for(i=0; i<n; i++)
-    {
-        scanf("%d", &a[i]);
-    }
-
-    for(i=0; i<=n-2; i++)
-    {
-        for(j=0; j<=n-i-2; j++)
-        {
-            if(a[j] > a[j+1])
-            {
-                temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
+    for(i=0; i<n; i++){scanf("%d", &a[i]);}
+    for(i=0; i<=n-2; i++){
+        for(j=0; j<=n-i-2; j++){
+            if(a[j] > a[j+1]){
+                temp = a[j]; a[j] = a[j+1]; a[j+1] = temp;
             }
         }
     }
-
     printf("\nHalf Ascending & Half Descending is: \n");
-
-    for(i=0; i<n/2; i++)
-    {
-        printf("%3d", a[i]);
-    }
-
-    for(i=n-1; i>=n/2; i--)
-    {
-        printf("%3d", a[i]);
-    }
+    for(i=0; i<n/2; i++) printf("%3d", a[i]);
+    for(i=n-1; i>=n/2; i--) printf("%3d", a[i]);
 }
 
 /*
