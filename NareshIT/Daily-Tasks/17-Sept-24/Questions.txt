@@ -1,0 +1,46 @@
+1.
+Write a C program to combine two string in a single String.
+---------
+Sample input :
+Enter first String : Naresh
+Enter Second String : it
+
+==============================================================
+2.
+Write a C program to remove given character from a String.
+--------
+Sample input :
+Enter a String : Bookstore
+Enter the character you want to remove : o
+
+==============================================================
+3.
+Write a C program to remove all the Spaces from a given String.
+
+Sample Input
+Black cat on a mat
+Sample Output
+Blackcatonamat
+==============================================================
+4.
+Write a C program to convert all the character to upper case from a given index to end index. If the given index is not available then print Index is not available.
+-------
+Sample input  :
+Enter a String : I am a student
+Enter the starting index number : 4
+Enter the ending index number : 13
+
+Sample  output : I am A STUDENT
+==============================================================
+5.
+Create a program that compresses a string by replacing repeated characters with a count of the repetition (e.g., "aaabbbcc" 	becomes "a3b3c2").
+-------
+Sample input : Enter a String : aaabbccdae
+
+Sample output as : a4b2c2
+Sample Input
+aaabbccdae
+Sample Output
+a4b2c2
+==============================================================
+
