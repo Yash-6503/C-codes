@@ -1,0 +1,38 @@
+Que 1: 
+Write a program to checkthe given string is palindrome or not 
+Sample input : Enter a String : madam
+
+Sample input : madam
+		  
+output:- palindrome
+==========================================================================================================================
+
+Que 2 : Write a C program to find out the sum of the numbers which is present in a given string.
+--------
+Sample input  : Enter a String : TS12ab345
+
+Sample output  : Sum Of the numbers is : 15
+
+==========================================================================================================================
+
+Que 3 : Write a C program to convert each word first alphabet to Upper case.
+--------
+Sample input  : Enter a String : i am a student of nareshit
+
+Sample output  : Sum Of the numbers is : I Am A Student Of Nareshit
+
+====================================================================================================================
+
+Que 4 : Write a C Program to Display All Characters Present in the Prime Position of a String.
+---------
+
+Sample input  : today is wednesday
+Sample output  : da sdey
+
+==========================================================================================================================
+
+Que 5 : Write a C program to reverse all the vowels present in a given string. Return the newly created string or modified string .
+--------		
+Sample input : Aeroplane
+
+Sample output  : earoplenA
