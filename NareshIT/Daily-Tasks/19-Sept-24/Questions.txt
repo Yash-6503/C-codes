@@ -1,0 +1,32 @@
+Que 1 : Write a program to find and count all palindromicrome substrings in a given string.
+--------
+Sample input : Enter a String : madam
+
+Sample output   :  Palindromic substring : madam
+		   Palindromic substring : ada
+		   Total palindromic substrings are : 2
+
+========================================================================================================================
+
+Que 2 : C Program to Remove Characters in Second String which are present in First String.
+--------
+Sample input : apple
+Sample input : aeroplane
+
+Sample output as : ron
+==========================================================================================================================
+
+Que 3 :  Write a program in C to find the frequency of characters.
+--------
+Sample input : This is a test string
+Sample input : the character to find frequency: i
+
+Sample  output : The frequency of 'i' is : 3 
+
+=========================================================================================================================
+
+Que 4: Write a C program to find the repeated character in a string.
+--------
+Sample input : welcome to Nareshit
+
+Sample  output:  The first repetitive character in Nareshit is: e
