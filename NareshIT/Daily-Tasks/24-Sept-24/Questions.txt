@@ -1,0 +1,73 @@
+Que 1 : Write a program in C to add N natural numbers using a function.
+-------
+
+-> create int main() function.
+-> create int naturalNumberSum(int a) function. this function will take one integer number as input and will return sum of natural number.
+-> in main function read one values and call naturalNumberSum function. and print the result.
+
+Sample input : Input n value : 10
+Sample output : The sum of 10 natural numbers is 55
+
+===========================================================================================================================
+
+Que 2 : Write a C program to check if a given year is a leap year or not using function.
+------
+
+-> create int main() function
+-> create bool isLeapYear(int year) function. this function will take year as parameter suppied by main function and will check the year is leap year or not. if year is leap then return true otherwise false.
+
+Sample input : Enter a year: 2024
+
+Sample output : 2024 is a leap year.
+
+===========================================================================================================================
+
+Que 3 : Write a function to find the length of a given string (excluding the null character).
+-------
+
+-> create int main() function
+-> create int getLength(char str[]) function. this function will return length of string
+-> in main function read String and call the getLength fuction and print the output.
+
+Sample input : Hello
+Sample output: Length of the string: 5
+
+
+Sample input : ThisIsALongString
+Sample output: Length of the string: 17
+
+===========================================================================================================================
+
+
+Que 4 : Write a C program to check given String is palindrom or not using function.
+-------
+
+-> create int main() function.
+-> create bool isPalindromString(char str[]) function. this function will check given string is palindrom or not and return (true if the string is a palindrome, false otherwise).
+-> in main function read one string input and call isPalindromString function. and print the result.
+
+Sample input : radar
+Sample output : The string is a palindrome.
+
+Sample input : hello
+Sample output : The string is not a palindrome.
+
+===========================================================================================================================
+
+Que 5 : Write a C program to calculate the sum of all elements in an integer array using function.
+------
+
+-> create int main() function.
+-> create int arraySum(char str[]) function. this function will take integer array as input in parameter and will return the total sum as result.
+-> in main function read size of array , then based on size create new array and store the values.
+-> call the arraySum function and print the sum which is return by arraySum function.
+
+
+Sample input:
+              Size of the array: 5
+              Array elements: 10 20 30 40 50
+
+
+Sample output: Sum of all elements in the array: 150
+
+
