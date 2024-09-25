@@ -1,0 +1,86 @@
+
+Que 1 : Write a C program to check if two strings are anagrams of each other or not using function.
+------
+
+-> create int main() function.
+-> create bool isAnagram(char str1[],char str2[]) function. this function will take two string as input and will return true if both String are anagram otherwise will return false.
+-> in main function read two Strings and pass it to isAnagram fuction by calling it and print the result.
+
+
+Sample input:
+             First string : listen
+             Second string: silent
+
+Sample output: The strings are anagrams.
+
+
+Sample input:
+             First string : hello
+             Second string: world
+
+Sample output: The strings are not anagrams.
+
+=========================================================================================================================
+
+Que 2 : Write a C program to check if a string contains only digits.
+--------
+
+-> create int main() function.
+-> create bool isContainsDigits(char str[]) function. this function will take string as input and will return (true if String contains only digits otherwise return false).
+-> in main function read String and pass it to isContainsDigits fuction by calling it and print the result.
+
+
+Sample input  : 12345
+Sample output : The string contains only digits.
+
+
+Sample input : 45A7
+Sample output : The string contains non-digit characters.
+
+=========================================================================================================================
+
+Que 3 : Write a C program to find all the Armstrong number in beetween 100 to 10000 by using function. 
+--------
+
+-> create int main() function.
+-> create bool isArmstrong(int n) function
+-> create int countDigits(int n) function
+-> create int power(int base, int exp) function
+
+Sample input : n1 = 1 and n2 = 10000
+
+Sample output : 
+Armstrong numbers between 100 and 10000 are:
+
+153
+
+370
+
+371
+
+407
+
+1634
+
+8208
+
+9474
+
+=========================================================================================================================
+
+Que 4 : Write a C program that finds the largest element in an array of integers using function.
+--------
+
+-> create int main() function.
+-> create int largestEle(int arr[]) function.
+-> in main function read size of array and based on size create new array.
+-> store size elements into array and call largestEle function by passing array as input.
+-> largestEle function will perform the operation and will return largest element of array to the main function.
+-> in the main function recive the result and print the output. 
+
+Sample input : n = 7
+               arr[]={1,100,2,3,55,3,2}
+
+Sample output : Largest element of array is : 100
+
+
